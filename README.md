@@ -1,16 +1,20 @@
-## Hi there 👋
+# Amre Bill - Portfolio Website
 
-<!--
-**amrebill/amrebill** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Welcome to my personal portfolio website **Amre Bill** — a simple and clean static site built using HTML and CSS.
 
-Here are some ideas to get you started:
+## 👋 About Me
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Hi! I'm a passionate web developer who loves crafting beautiful and minimal websites. This portfolio is a reflection of my projects, skills, and design style.
+
+## 💻 Technologies Used
+
+- HTML5  
+- CSS3  
+
+## 🌐 Live Preview
+
+You can view the live version of this portfolio here:  
+**[amrebill.tk](http://amrebill.tk)** *(or GitHub Pages URL)*
+
+## 📁 Project Structure
+
