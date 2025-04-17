@@ -1,0 +1,291 @@
+/* styles.css */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #fff;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav .logo span {
+  color: #F6A700;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.btn {
+  background-color: #F6A700;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 0;
+  background-color: #FDF7E3;
+}
+
+.hero .hero-text {
+  max-width: 50%;
+}
+
+.hero h1 span {
+  color: #F6A700;
+}
+
+.tabs {
+  background-color: #F6A700;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.tabs button {
+  background: none;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.services, .tools, .projects, .journey, .about {
+  padding: 60px 0;
+}
+
+.services h2, .tools h2, .projects h2, .journey h2, .about h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.service-cards, .project-cards, .tool-icons, .journey-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #eee;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.about {
+  background-color: #FDF7E3;
+  display: flex;
+  align-items: center;
+}
+
+.about .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.journey-grid {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+.education ul, .experience ul {
+  list-style: none;
+  padding: 0;
+}
+
+.tool-icons img, .project-cards img, .about-img img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+/* Contact Section */
+.contact {
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+.contact .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.contact-left {
+    flex: 1;
+    min-width: 300px;
+}
+
+.contact-left h2 {
+    font-size: 32px;
+    color: #222;
+}
+
+.contact-left span {
+    color: #f4a100;
+}
+
+.contact-left p {
+    margin: 20px 0;
+    color: #555;
+    font-size: 14px;
+}
+
+.contact-info li {
+    list-style: none;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.contact-right {
+    flex: 1;
+    min-width: 300px;
+    background-color: #fafafa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.contact-right form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-right input,
+.contact-right select,
+.contact-right textarea {
+    padding: 12px 15px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-right textarea {
+    resize: none;
+    height: 120px;
+}
+
+.contact-right button {
+    background-color: #314e52;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.contact-right button:hover {
+    background-color: #f4a100;
+    color: #000;
+}
+.mainbg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 263px;
+    position: relative;
+    margin-top: -140px;
+    float: right;
+    left: 350px;
+}
+/* Testimonials Section */
+.testimonials {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 28px;
+    color: #314e52;
+    margin-bottom: 20px;
+}
+
+.testimonials h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.testimonial-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.testimonial {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.testimonial .stars {
+    color: #f4a100;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.testimonial p {
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.testimonial h4 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.testimonial small {
+    font-size: 12px;
+    color: #777;
+}
